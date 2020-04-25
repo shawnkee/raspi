@@ -1,5 +1,5 @@
 # refer to https://www.juanmtech.com/samba-file-sharing-raspberry-pi/
-```
+
 sudo nano /etc/samba/smb.conf
 
 [global]
@@ -14,4 +14,4 @@ writeable=Yes
 create mask=0777
 directory mask=0777
 public=no
-```
+
