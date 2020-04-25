@@ -1,10 +1,10 @@
-#refer to https://mirror.tuna.tsinghua.edu.cn/help/raspbian/
+##refer to https://mirror.tuna.tsinghua.edu.cn/help/raspbian/
 
 Debian buster
 
-# 编辑 `/etc/apt/sources.list` 文件，删除原文件所有内容，用以下内容取代：
+### 编辑 `/etc/apt/sources.list` 文件，删除原文件所有内容，用以下内容取代：
 deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
 deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
 
-# 编辑 `/etc/apt/sources.list.d/raspi.list` 文件，删除原文件所有内容，用以下内容取代：
+### 编辑 `/etc/apt/sources.list.d/raspi.list` 文件，删除原文件所有内容，用以下内容取代：
 deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
