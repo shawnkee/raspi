@@ -1,0 +1,16 @@
+# refer to https://www.juanmtech.com/samba-file-sharing-raspberry-pi/
+
+'sudo nano /etc/samba/smb.conf'
+
+[global]
+netbios name = Pi
+server string = Pi share
+workgroup = WORKGROUP
+
+[pishare]
+path = /home/pi
+comment = pi share
+writeable=Yes
+create mask=0777
+directory mask=0777
+public=no
