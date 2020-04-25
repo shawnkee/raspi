@@ -1,4 +1,4 @@
-# refer to https://www.juanmtech.com/samba-file-sharing-raspberry-pi/
+## refer to https://www.juanmtech.com/samba-file-sharing-raspberry-pi/
 
 sudo nano /etc/samba/smb.conf
 
